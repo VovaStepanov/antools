@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- ======================== BOXICONS ========================== -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ========================== SLICK-SLIDER ========================== -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- ========================== AQUA ============================ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css">
+</head>
+
+<body>
+  <div class="loader__wrapper">
+    <div class="clock-loader"></div>
+  </div>
+  <div class="wrapper unloaded">
+    <header>
+      <div class="adaptive-menu">
+        <ul class="adaptive-menu__list">
+          <li class="menu__item" style="--delay: 0.1s">Home</li>
+          <li class="menu__item dropdown-listed" style="--delay: 0.2s">
+            Categories <i class='bx bx-chevron-down'></i>
+            <ul class="dropdown-menu">
+              <li class="dropdown__item">Design</li>
+              <li class="dropdown__item">Development</li>
+              <li class="dropdown__item">UI/UX Interface</li>
+              <li class="dropdown__item">Front-End</li>
+            </ul>
+          </li>
+          <li class="menu__item" style="--delay: 0.3s">My Collections</li>
+          <li class="menu__item" style="--delay: 0.4s">Blog</li>
+        </ul>
+      </div>
+      <nav class="container header__container">
+        <div class="logo-box"><img src="./img/logo.svg" alt="logo"></div>
+        <ul class="header__menu">
+          <li class="menu__item">Home</li>
+          <li class="menu__item dropdown">
+            Categories <i class='bx bx-chevron-down'></i>
+            <ul class="dropdown-menu">
+              <li class="dropdown__item">Design</li>
+              <li class="dropdown__item">Development</li>
+              <li class="dropdown__item">UI/UX Interface</li>
+              <li class="dropdown__item">Front-End</li>
+            </ul>
+          </li>
+          <li class="menu__item">My Collections</li>
+          <li class="menu__item">Blog</li>
+        </ul>
+        <div class="header__buttons">
+          <button class="button ghost">Login</button>
+          <button class="button">Sign Up</button>
+        </div>
+        <button class="burger"><i class='bx bx-menu'></i></button>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="top-section section">
+        <div class="container top__container grid">
+          <div class="top__content">
+            <h1 class="section__title biggest-font">Awesome tools for
+              Designer & Developer.</h1>
+            <p class="section__subtitle">Antool is a web collection of information on paid or free Design and
+              Development
+              tools</p>
+            <div class="top__input-box">
+              <label for="top-input"><i class='bx bx-search-alt-2'></i></label>
+              <input placeholder="find more than 430+ tools..." id="top-input" class="input" type="text">
+              <button class="button input__button">Search</button>
+            </div>
+            <div class="header__socials">
+              <a href="#" style="--i: #4867AA;"><i class='bx bxl-facebook'></i></a>
+              <a href="#" style="--i: #D73E90;"><i class='bx bxl-instagram'></i></a>
+              <a href="#" style="--i: #1D99ED;"><i class='bx bxl-twitter'></i></a>
+            </div>
+          </div>
+          <div class="top__img-box">
+            <img src="./img/header-bg.svg" alt="img">
+          </div>
+        </div>
+      </section>
+      <section class="section tools">
+        <h1 class="section__title center">Most Popular Tools</h1>
+        <p class="section__subtitle center">Tools for the best Designers and Developers
+          most popularly used in the world</p>
+        <div class="container tools__container grid">
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/figma.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  FIGMA
+                </h3>
+                <span class="tool__subtitle">
+                  Free
+                </span>
+              </div>
+            </div>
+            <div class="tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/sketch.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  Sketch
+                </h3>
+                <span class="tool__subtitle">
+                  Trial & Paid
+                </span>
+              </div>
+            </div>
+            <div class="tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/vs_code.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  VS Code
+                </h3>
+                <span class="tool__subtitle">
+                  Free
+                </span>
+              </div>
+            </div>
+            <div class="tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/notion.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  Notion
+                </h3>
+                <span class="tool__subtitle">
+                  Free & Paid
+                </span>
+              </div>
+            </div>
+            <div class="tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/slack.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  Slack
+                </h3>
+                <span class="tool__subtitle">
+                  Free & Paid
+                </span>
+              </div>
+            </div>
+            <div class="tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+          <div class="tool-box">
+            <div class="circle"></div>
+            <div class="row">
+              <img src="./img/invision.svg" alt="tool">
+              <div>
+                <h3 class="tool__title">
+                  Invision
+                </h3>
+                <span class="tool__subtitle">
+                  Free & Paid
+                </span>
+              </div>
+            </div>
+            <div class="row tool__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="tools__buttons">
+              <div>
+                <button><i class='bx bxs-heart'></i></button>
+                <button><i class='bx bx-folder-plus'></i></button>
+              </div>
+              <button class='button ghost'>Visit</button>
+            </div>
+          </div>
+        </div>
+        <button class="button ghost bordered">Load more</button>
+      </section>
+      <section class="section brands">
+        <div class="container brands__container">
+          <div class="circle"></div>
+          <h3 class="section__title center">Trusted more than 150+ brand</h3>
+          <div class="brand-box">
+            <div class="brand__item"><img src="./img/logos_microsoft.svg" alt="brand"></div>
+            <div class="brand__item"><img src="./img/logos_google.svg" alt="brand"></div>
+            <div class="brand__item"><img src="./img/logos_slack.svg" alt="brand"></div>
+            <div class="brand__item"><img src="./img/logos_wordpress.svg" alt="brand"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section new-tools">
+        <div class="container new-tools__container">
+          <div class="new-tools__content">
+            <h1 class="section__title">Newcomer Tools</h1>
+            <p class="section__subtitle">Wow! see the latest update of the most recommended tools from reliable
+              designers and developers</p>
+            <button class="button">Explore more</button>
+          </div>
+          <div class="cards-box grid">
+            <div class="new-tool__card tool-box">
+              <div class="circle"></div>
+              <div class="row">
+                <img src="./img/zeplin.svg" alt="tool">
+                <div>
+                  <h3 class="tool__title">
+                    Zeplin
+                  </h3>
+                  <span class="tool__subtitle">
+                    Free
+                  </span>
+                </div>
+              </div>
+              <div class="tool__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="tools__buttons">
+                <div>
+                  <button><i class='bx bxs-heart'></i></button>
+                  <button><i class='bx bx-folder-plus'></i></button>
+                </div>
+                <button class='button ghost'>Visit</button>
+              </div>
+            </div>
+            <div class="new-tool__card tool-box">
+              <div class="circle"></div>
+              <div class="row">
+                <img src="./img/phpstorm.svg" alt="tool">
+                <div>
+                  <h3 class="tool__title">
+                    PHPStorm
+                  </h3>
+                  <span class="tool__subtitle">
+                    Free
+                  </span>
+                </div>
+              </div>
+              <div class="tool__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="tools__buttons">
+                <div>
+                  <button><i class='bx bxs-heart'></i></button>
+                  <button><i class='bx bx-folder-plus'></i></button>
+                </div>
+                <button class='button ghost'>Visit</button>
+              </div>
+            </div>
+            <div class="new-tool__card tool-box">
+              <div class="circle"></div>
+              <div class="row">
+                <img src="./img/toolbox_app.svg" alt="tool">
+                <div>
+                  <h3 class="tool__title">
+                    Toolbox
+                  </h3>
+                  <span class="tool__subtitle">
+                    Free
+                  </span>
+                </div>
+              </div>
+              <div class="tool__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="tools__buttons">
+                <div>
+                  <button><i class='bx bxs-heart'></i></button>
+                  <button><i class='bx bx-folder-plus'></i></button>
+                </div>
+                <button class='button ghost'>Visit</button>
+              </div>
+            </div>
+            <div class="new-tool__card tool-box">
+              <div class="circle"></div>
+              <div class="row">
+                <img src="./img/procreate.svg" alt="tool">
+                <div>
+                  <h3 class="tool__title">
+                    Procreate
+                  </h3>
+                  <span class="tool__subtitle">
+                    Free
+                  </span>
+                </div>
+              </div>
+              <div class="tool__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="tools__buttons">
+                <div>
+                  <button><i class='bx bxs-heart'></i></button>
+                  <button><i class='bx bx-folder-plus'></i></button>
+                </div>
+                <button class='button ghost'>Visit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section team__section">
+        <div class="container team__container">
+          <div class="slider">
+            <div>
+              <div class="team__slide">
+                <div class="team__img">
+                  <img src="./img/team_pers.png" alt="pers">
+                  <div class="person__data">
+                    <h3 class="person__name">Ronald Richards</h3>
+                    <span class="person__job">Product Manager</span>
+                  </div>
+                </div>
+                <div class="team__content">
+                  <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex
+                    tempor
+                    cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt
+                    consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur
+                    non laboris id qui ad.</p>
+                  <img src="./img/quote.svg" alt="quote">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="team__slide">
+                <div class="team__img">
+                  <img src="./img/team_pers.png" alt="pers">
+                  <div class="person__data">
+                    <h3 class="person__name">Ronald Richards</h3>
+                    <span class="person__job">Product Manager</span>
+                  </div>
+                </div>
+                <div class="team__content">
+                  <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex
+                    tempor
+                    cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt
+                    consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur
+                    non laboris id qui ad.</p>
+                  <img src="./img/quote.svg" alt="quote">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="team__slide">
+                <div class="team__img">
+                  <img src="./img/team_pers.png" alt="pers">
+                  <div class="person__data">
+                    <h3 class="person__name">Ronald Richards</h3>
+                    <span class="person__job">Product Manager</span>
+                  </div>
+                </div>
+                <div class="team__content">
+                  <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex
+                    tempor
+                    cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt
+                    consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur
+                    non laboris id qui ad.</p>
+                  <img src="./img/quote.svg" alt="quote">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team__slider__btn">
+            <button class="prev"><i class='bx bx-chevron-left'></i></button>
+            <button class="next"><i class='bx bx-chevron-right'></i></button>
+          </div>
+        </div>
+      </section>
+      <section class="section join__section">
+        <div class="join__content">
+          <h1 class="section__title">Become a contributor?</h1>
+          <p class="section__subtitle">Join us and get tips & tricks to become a great Designer and Developer</p>
+          <div class="join__input">
+            <input class="input" type="text" placeholder="Enter your email...">
+            <button class="button">Join Us</button>
+          </div>
+        </div>
+      </section>
+      <footer class="section footer">
+        <div class="container footer__container">
+          <div class="column">
+            <ul>
+              <li class="title"><img src="./img/logo.svg" alt="logo"></li>
+              <li class="title">Copyright 2021. Antools</li>
+              <li>Antool is a web collection of information on paid or free Design and Development tools</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li class="title">Contact Us</li>
+              <li>+621987463</li>
+              <li>M Building, No.10 A</li>
+              <li>antools@awesome.com</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li class="title">Categories</li>
+              <li>Design</li>
+              <li>Development</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li class="title">Company Info</li>
+              <li>About Us</li>
+              <li>Our Partners</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+  </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
